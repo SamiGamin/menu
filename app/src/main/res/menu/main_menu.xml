@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item
+     android:id="@+id/buscar"
+     android:title="BUSCAR"
+     android:icon="@drawable/buscar"
+     app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/perfil"
+        android:title="PERFIL"
+        app:showAsAction="never"
+        android:icon="@drawable/person"/>
+    <item
+        android:id="@+id/salir"
+        android:title="Cerrar Sesion"
+        app:showAsAction="never"/>
+
+</menu>
