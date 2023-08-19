@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="azul">#0A88EC</color>
+    <color name="azuloscuro">#033B67</color>
+    <!--colores secundarios-->
+    <color name="verdesecon">#3E9041</color>
+    <color name="verdeoscurosecon">#1E461F</color>
 </resources>

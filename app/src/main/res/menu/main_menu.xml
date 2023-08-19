@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
- <item
-     android:id="@+id/buscar"
-     android:title="BUSCAR"
-     android:icon="@drawable/buscar"
-     app:showAsAction="ifRoom"/>
-    <item
-        android:id="@+id/perfil"
-        android:title="PERFIL"
-        app:showAsAction="never"
-        android:icon="@drawable/person"/>
-    <item
-        android:id="@+id/salir"
-        android:title="Cerrar Sesion"
-        app:showAsAction="never"/>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/app_bar_buscar"
+            android:icon="@drawable/search"
+            android:title="buscar" />
+        <item
+            android:id="@+id/app_bar_inicio"
+            android:icon="@drawable/home"
+            android:title="home" />
+
+
+        <item
+            android:id="@+id/app_bar_perfil"
+            android:icon="@drawable/person"
+            android:title="perfil" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/app_bar_cerarsesion"
+                android:icon="@drawable/logout"
+                android:title="cerar_sesion" />
+
+        </menu>
+
+    </item>
+
+
 
 </menu>

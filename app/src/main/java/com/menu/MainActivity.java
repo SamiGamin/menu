@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void iniciar() {
-        Intent iniciar = new Intent(this, perfil.class);
+        Intent iniciar = new Intent(this, Inicio.class);
         startActivity(iniciar);
         finish();
         
