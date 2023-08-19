@@ -94,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
                             iniciar();
                             FirebaseUser user = mAuth.getCurrentUser();
                             // Hacer algo con el usuario, por ejemplo, actualizar la interfaz de usuario
-
                             updateUI(user);
                         } else {
                             // El inicio de sesión con Google falló, mostrar un mensaje de error
@@ -106,6 +105,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void iniciar() {
+        Intent iniciar = new Intent(this, perfil.class);
+        startActivity(iniciar);
+        finish();
         
     }
 
